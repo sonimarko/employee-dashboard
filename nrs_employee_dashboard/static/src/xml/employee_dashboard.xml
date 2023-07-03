@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <t t-name="nrs_employee_dashboard.EmployeeDashboard">
+        <div class="o_purchase_dashboard container">
+        <div class="row">
+            <div class="col-sm-5">
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <td class="o_text">
+                            <div>Birthday Today</div>
+                        </td>
+                        <td class="o_main o_dashboard_action" title="Birthday Today" name="nrs_employee_dashboard.employee_action_dashboard" context='{"search_default_birthday_today": true}'>
+                            <a href="#"><t t-esc="values['today_birthday_count']"/><br/>Birthday Today</a>
+                        </td>
+                    </tr>
+                </thead>
+            </table></div>
+        </div></div>
+    </t>
+</templates>
